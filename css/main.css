@@ -1,0 +1,194 @@
+/**/
+/**/
+* {
+    /*black default color*/
+    color: #000;
+}
+/*makes changes to the body of the page*/
+body {
+  background: none repeat scroll 0 0 #fff;
+  /*controls color, margin, and continuous scroll option*/
+  color: #222222;
+  /*default browser margin*/
+  margin:0;
+}
+/*selects all tags that are anchors*/
+a {
+  /*changes anchor colors to light black*/
+  color: #222222;
+  /*takes away automatic underline*/
+  text-decoration: underline;
+}
+/*chooses all anchor tags with a hover*/
+a:hover {
+  /*changes color of hover when cursor is over top*/
+  color: #222222;
+  /*adds hover when cursor is over top the link*/
+  text-decoration: underline;
+}
+/*This selects all anchor tags with class of button*/
+a.button:hover {
+  /*takes the underline away when hovering over a link*/
+  text-decoration: none;
+}
+
+
+
+/*Top selection menu bar */
+/*Controls elements with top navigation class*/
+.top-navigation {
+  float:right;
+  margin-right: 25px;
+}
+/*Controls details of all of the listed items in the top navigation field*/
+.top-navigation li{
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  padding: 10px 10px 0 0;
+  vertical-align: bottom;
+  margin: 5px 5px 0 0;
+  font-size: 13px;
+  }
+  /*Changes size and look of icons*/
+  .fa {
+    font-size: 20px;
+    vertical-align: top;
+    opacity: 0.7;
+    cursor: default;
+  }
+  /*Controls hover on icons*/
+  .fa:hover {
+    opacity: 1.0;
+  }
+  /*Controls all elements that have a "share classification"*/
+  .share-button {
+    background-color: #f2f2f2;
+    padding: 7px 15px;
+    cursor: default;
+    position: relative;
+    top: -3px;
+  }
+  /*grabs any element with a share-button class that is hovered over*/
+  .share-button:hover {
+    background-color: #E1E1E1;
+  }
+  /*controls the picture of the person logged in*/
+  .proile-img {
+    border-radius:25px;
+    height: px;
+    width: px;
+    position: relative;
+    top: 9px;
+  }
+
+
+
+  /*Middle Section/Google Logo and Serch Box*/
+  /**/
+  .search-box {
+    position: absolute;
+    margin-top: 75px;
+    width: 100%;
+  }
+  /**/
+  .search-box img {
+    padding: 142px 0 24px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  /**/
+  .search-box input {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+  }
+  /**/
+  .search-box input:focus {
+    border-color: #f5f5f5;
+  }
+  /*Select any items with a class of search-buttons*/
+  .search-buttons {
+    text-align: center;
+    padding-left: 0;
+  }
+  /**/
+  .search-buttons button {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  /**/
+  .search-button button:hover {
+    background-color:#f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #333333;
+  }
+
+
+
+  /*Bottom links*/
+  /*Changing these values will alter positioning/color/width/etc.*/
+  .bottom-site-links {
+    bottom: 0  !important;
+    position: absolute;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+  }
+  /*This controls links on the left side*/
+  .left-site-links,
+/*This controls links on the right side */
+.right-site-links {
+    margin: 0;
+}
+/*Left bottom site link controls*/
+.left-site-links {
+  float: left;
+  padding-left: 20px;
+}
+/*Right bottom site link controls*/
+.right-site-links {
+  float: right;
+  padding-right: 10px;
+}
+/*This selects all things named left site links under the li*/
+.left-site-links li,
+  /*This selects all things  named right site links under the li*/
+.right-site-links li{
+    list-style: none;
+    display: inline;
+    line-height: 40px;
+}
+/*Controls right site links in the li and inside the anchor tags*/
+.right-site-links li a:first-child {
+  padding-right: 8px;
+}
+/*controls second set of anchor tags*/
+.left-site-links li:nth-child(2),
+/*controls 3rd set of anchor tags*/
+.left-site-links li:nth-child(3) {
+  margin-left: 7px;
+}
+/**/
+.left-site-links li a,
+/**/
+.right-site-links li a {
+  color: #666666;
+  margin: 2px 10px 0;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+}
